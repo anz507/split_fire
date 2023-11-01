@@ -1,7 +1,8 @@
 # split_fire
 
-![split_fire](https://imgur.com/ZeH4woZ)
-![split_fire_back](https://imgur.com/RxPJ4Kr)
+![split_fire](https://i.imgur.com/ZeH4woZ.jpg)
+
+![split_fire_back](https://i.imgur.com/RxPJ4Kr.jpg)
 
 *A short description of the keyboard/project*
 
