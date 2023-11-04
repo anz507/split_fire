@@ -16,7 +16,7 @@ Included prebuilt firmware: `split_fire_anz507.uf2` or you can compile using com
 * Hardware Supported:
     - Handwired
     - RP2040 microcontroller
-* Hardware Availability:
+* Hardware Availability (if you are around my country, just follow the link :)):
     - 1x [Raspberry Pi Pico RP2040](https://tokopedia.link/spW8kgkinEb)
     - 1x [KY-023 ANALOG DUAL AXIS XY JOYSTICK MODULE](https://tokopedia.link/IzSp9CvinEb)
     - 2x [Kailh Silent Mouse Micro Switch (Yellow - 4.3mm)](https://tokopedia.link/VJXXyjxinEb)
