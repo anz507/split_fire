@@ -1,6 +1,6 @@
 // Copyright 2023 Ahmad Anshori (@anz507)
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include "analog.h"
+#include "analog.h"e 
 #include QMK_KEYBOARD_H
 
 #ifdef JOYSTICK_ENABLE
@@ -72,11 +72,11 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x5_3(
-        KC_Q,         KC_W, KC_E,    KC_R,    KC_T,           KC_Y,          KC_U,          KC_I,     KC_O,   KC_P,
-        KC_A,         KC_S, KC_D,    KC_F,    KC_G,           KC_H,          KC_J,          KC_K,     KC_L,   KC_BSPC,
-        LSFT_T(KC_Z), KC_X, KC_C,    KC_V,    KC_B,           KC_N,          KC_M,          KC_COMMA, KC_DOT, RSFT_T(KC_SLSH),
-                            KC_LGUI, KC_LALT, LGUI_T(KC_SPC), LT(1, KC_TAB), LT(2, KC_ENT), KC_ESC,
-                                     KC_BTN1, KC_BTN2
+        KC_Q,         KC_W, KC_E,         KC_R,    KC_T,           KC_Y,          KC_U,          KC_I,     KC_O,   KC_P,
+        KC_A,         KC_S, KC_D,         KC_F,    KC_G,           KC_H,          KC_J,          KC_K,     KC_L,   KC_BSPC,
+        LSFT_T(KC_Z), KC_X, KC_C,         KC_V,    KC_B,           KC_N,          KC_M,          KC_COMMA, KC_DOT, RSFT_T(KC_SLSH),
+                            KC_LEFT_CTRL, KC_LALT, LGUI_T(KC_SPC), LT(1, KC_TAB), LT(2, KC_ENT), KC_ESC,
+                                          KC_BTN1, KC_BTN2
     ),
     [1] = LAYOUT_split_3x5_3(
         KC_UNDS,         KC_MINS, KC_PLUS, KC_EQL,  KC_COLN, KC_GRV,   KC_MRWD, KC_MPLY, KC_MFFD, KC_DEL,
@@ -93,10 +93,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                           KC_TRNS, KC_TRNS
     ),
     [3] = LAYOUT_split_3x5_3(
-        KC_NO,  KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,  KC_NO, KC_NO, 
-        KC_F1,  KC_F2, KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,  KC_F9, KC_F10,
-        KC_F11, KC_NO, KC_NO,   QK_BOOT, KC_TRNS, KC_NO,   KC_NO,   KC_NO,  KC_NO, KC_F12,
-                       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-                                         KC_TRNS, KC_TRNS
+        RGB_TOG,RGB_MOD,RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD,KC_NO, KC_NO, 
+        KC_F1,  KC_F2,  KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,  KC_F9, KC_F10,
+        KC_F11, KC_NO,  KC_NO,   QK_BOOT, KC_TRNS, KC_NO,   KC_NO,   KC_NO,  KC_NO, KC_F12,
+                        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+                                          KC_TRNS, KC_TRNS
     )
 };
