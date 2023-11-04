@@ -30,6 +30,7 @@ Included prebuilt firmware: `split_fire_anz507.uf2` or you can compile using com
     - [Shrink tube](https://tokopedia.link/kHjJH4bjnEb)
     - 2x [VGA Head male & female](https://tokopedia.link/t5cJnAgjnEb)
     - [USB C cable](https://tokopedia.link/q7gD8YnjnEb)
+    - 2x [FULL RGB 8bit Ws2812 Ws2812b](https://tokopedia.link/JOORCQrYrEbP)
     - CNC acrylic plate
 
 
