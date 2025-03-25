@@ -1,8 +1,8 @@
 # split_fire
 
-![split_fire](https://i.imgur.com/ZeH4woZ.jpg)
+![split_fire](https://anz507.sirv.com/Images/built-another-handwired-keyboard-split-fire-v0-e18ox8nhrnyb1.webp)
 
-![split_fire_back](https://i.imgur.com/RxPJ4Kr.jpg)
+![split_fire_back](https://anz507.sirv.com/Images/built-another-handwired-keyboard-split-fire-v0-8p7fp9nhrnyb1.webp)
 
 *A short description of the keyboard/project*
 
